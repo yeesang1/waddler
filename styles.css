@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Helvetica Rounded Bold"; 
+    src: url('helvetica-rounded-bold.woff'); 
+}
+
+body {
+    font-family: "Helvetica Rounded Bold", sans-serif;
+    background-color: violet;
+}
+
+#main {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    margin-bottom: 10px;
+    height: 300px;
+    width: 700px;
+    border: 5px solid whitesmoke;
+}
+
+#part1 {
+    margin-top: 0px;
+    color: black;
+    background-image: url("images/dreamland.jpg"); 
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#part1title {
+    display: flex;
+    margin: 0 auto;
+    padding: 2px;
+    width: fit-content;
+    margin-top: 50px;
+    border: 5px solid #70F8BA;
+    border-radius: 20px;
+    background: #70F8BA
+    
+}
+
+#part1description {
+    text-align: center;
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    text-shadow: 0px 0px 5px #70F8BA;
+}
+
+
+
+#part2 {
+    background-color: paleturquoise;
+}
+
+#part2title {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+#part2flex1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.part2flex2 {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name { 
+    margin-bottom: 0px;
+}
+
+.pic {
+
+    height: 100px;
+    width: 100px;
+    background-color: paleturquoise;
+}
+
+#part3 {
+    background: antiquewhite;
+
+}
+
+#part3background {
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: white;
+}
+
+#part3image {
+    height: 150;
+    margin-top: 30px;
+
+}
+
+#part3flex1 {
+    margin-top: 25px;
+    display: flex;
+    margin-left: 25px;
+}
+
+#part3title {
+    margin-left: -20px;
+}
+
+#part3flex2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -40px;
+}
+#part3text {
+    justify-content: center;
+    margin-left: 25px;
+}
+
+#part3name {
+    margin-left: 60px;
+    
+}
