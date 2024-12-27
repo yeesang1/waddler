@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Helvetica Rounded Bold"; 
-    src: url("helvetica-rounded-bold.woff"); 
+    font-family: "Helvetica Rounded Bold";
+    src: url("helvetica-rounded-bold.woff");
 }
 
 @font-face {
@@ -9,18 +9,18 @@
 }
 
 body {
-    height: 100%;
+    height: 100vh;
     margin: 0;
+    padding: 0;
     font-family: "Helvetica Rounded Bold", sans-serif;
-    max-height: fit-content; 
-    background: linear-gradient(#9CFFD9,#E88EED);
-    background-size: 100% 100%; 
+    background: linear-gradient(#9CFFD9, #E88EED);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-main {
-    margin: 0;
-    display: flex;  
+#main {
+    margin-top: 20px;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -37,10 +37,10 @@ main {
 #part1 {
     margin-top: 0px;
     color: black;
-    background-image: url("images/dreamland.jpg"); 
+    background-image: url("images/dreamland.jpg");
     background-position: 52%;
-    background-size: cover;  
-    
+    background-size: cover;
+
 }
 
 #part1 h1 {
@@ -86,7 +86,7 @@ main {
     display: flex;
     justify-content: space-around;
     gap: 0px 25px;
-    
+
 }
 
 .part2flexbox2 {
@@ -97,7 +97,7 @@ main {
     align-items: center;
 }
 
-#part2 h3 { 
+#part2 h3 {
     margin-bottom: 0px;
     font-size: 20;
 }
@@ -115,8 +115,8 @@ main {
     align-items: center;
 }
 
-#part3 > div {
-    
+#part3>div {
+
     max-width: 400px;
     max-height: 210px;
     border-radius: 20px;
@@ -129,7 +129,7 @@ main {
     max-height: 150px;
     object-fit: contain;
     margin-top: 30px;
-    
+
 }
 
 #part3flex1 {
@@ -137,6 +137,7 @@ main {
     align-items: center;
     gap: 25px;
 }
+
 #part3flex2 {
     display: flex;
     flex-direction: column;
@@ -151,15 +152,15 @@ main {
 }
 
 #part3flex3 {
-    
+
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    
+
 }
 
-#part3flex2 > h3  {
+#part3flex2>h3 {
     margin-left: 15px;
 
 
